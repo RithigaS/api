@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px; 
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+   
+}
+
+#fun, #ad, #img {
+    transform: scale(0.8);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    width: 300px; 
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#fun:hover, #ad:hover, #img:hover{
+transform: scale(1.0);
+}
+
+#tot {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%; 
+
+}
+
+
+
+img {
+    margin-top: 20px;
+    height: 150px;
+    width: 200px;
+    border-radius: 5px; 
+}
+img:hover{
+    transform: scale(1.5);
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(5, 72, 75);
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 10px; 
+}
+
+button {
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+#jokecontent, #advicecontent, #imagecontent {
+    text-align: center;
+  
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+}
